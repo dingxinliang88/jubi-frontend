@@ -73,7 +73,7 @@ export default defineConfig({
    * @name layout 插件
    * @doc https://umijs.org/docs/max/layout-menu
    */
-  title: 'Ant Design Pro',
+  title: 'Ju BI Pro',
   layout: {
     locale: true,
     ...defaultSettings,
@@ -130,8 +130,8 @@ export default defineConfig({
     {
       requestLibPath: "import { request } from '@umijs/max'",
       // 或者使用在线的版本
-      schemaPath: "http://localhost:12345/api/v2/api-docs",
-      projectName: 'yubi',
+      schemaPath: "http://localhost:8101/api/v2/api-docs",
+      projectName: 'jubi',
       // schemaPath: join(__dirname, 'oneapi.json'),
       mock: false,
     },

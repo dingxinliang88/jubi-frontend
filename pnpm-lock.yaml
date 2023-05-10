@@ -291,7 +291,7 @@ packages:
       cross-port-killer: 1.4.0
       eslint: 7.32.0
       execa: 5.1.1
-      getnpmregistry: 1.0.1
+      getnpmregister: 1.0.1
       glob: 7.2.3
       import-fresh: 3.3.0
       intl-messageformat: 9.13.0
@@ -9037,7 +9037,7 @@ packages:
     resolution: {integrity: sha512-0Gdjo/9+FzsYhXCEFueo2aY1z1tpXrxWZzP7k8ul9qt1U5o8rYJwTJYmaeHdrVosYIVYkOy2iwCJ9FdpocJhPQ==}
     dev: true
 
-  /getnpmregistry/1.0.1:
+  /getnpmregister/1.0.1:
     resolution: {integrity: sha512-OZRQ1RmRC0JduSLlQrHAaBLLrB23D3gaREsMBtM7aV8pxKB3duPs+a7iH7662b8zu1G9H6wiOvZc814g/bcHVg==}
     dependencies:
       node-fetch: 2.6.9
@@ -9789,7 +9789,7 @@ packages:
     resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
     engines: {node: '>=0.10.0'}
 
-  /is-finalizationregistry/1.0.2:
+  /is-finalizationregister/1.0.2:
     resolution: {integrity: sha512-0by5vtUJs8iFQb5TYUHHPudOR+qXYIMKtiUzvLIZITZUjknFmziyBJuLhVRc+Ds0dREFlskDNJKYIdIzu/9pfw==}
     dependencies:
       call-bind: 1.0.2
@@ -16691,7 +16691,7 @@ packages:
       has-tostringtag: 1.0.0
       is-async-function: 2.0.0
       is-date-object: 1.0.5
-      is-finalizationregistry: 1.0.2
+      is-finalizationregister: 1.0.2
       is-generator-function: 1.0.10
       is-regex: 1.1.4
       is-weakref: 1.0.2
