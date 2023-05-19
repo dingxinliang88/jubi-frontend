@@ -9,7 +9,7 @@ import { message, Tabs } from 'antd';
 import React, { useState } from 'react';
 import Settings from '../../../../config/defaultSettings';
 
-const Login: React.FC = () => {
+const Register: React.FC = () => {
   const [type, setType] = useState<string>('account');
   const containerClassName = useEmotionCss(() => {
     return {
@@ -138,7 +138,7 @@ const Login: React.FC = () => {
               marginBottom: 24,
             }}
           >
-            <Link to="/user/login">登录</Link>
+            <Link to="/user/login">已经有账号了？登录</Link>
           </div>
         </LoginForm>
       </div>
@@ -146,4 +146,4 @@ const Login: React.FC = () => {
     </div>
   );
 };
-export default Login;
+export default Register;

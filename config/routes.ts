@@ -15,7 +15,7 @@
       { path: '/admin/sub-page', name: '管理页面2', component: './Admin' },
     ],
   },
-  { icon: 'table', path: '/list', component: './TableList' },
-  { path: '/', redirect: '/welcome' },
+  { path: '/', redirect: '/add_chart' },
+  { path: '/add_chart', name: '智能分析', component: './Charts/Add' },
   { path: '*', layout: false, component: './404' },
 ];

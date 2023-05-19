@@ -13,8 +13,8 @@ const Footer: React.FC = () => {
       copyright={`${currentYear} ${defaultMessage}`}
       links={[
         {
-          key: 'Ju BI Pro',
-          title: 'Ju BI Pro',
+          key: 'Ju BI',
+          title: 'Ju BI',
           href: 'https://pro.ant.design',
           blankTarget: true,
         },
