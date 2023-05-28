@@ -17,5 +17,6 @@
   },
   { path: '/', redirect: '/add_chart' },
   { path: '/add_chart', name: '智能分析', component: './Charts/Add' },
+  { path: '/list_my_chart', name: '我的图表', component: './Charts/List' },
   { path: '*', layout: false, component: './404' },
 ];

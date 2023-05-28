@@ -98,6 +98,14 @@ const AddChart: React.FC = () => {
                     { value: '堆叠图', label: '堆叠图' },
                     { value: '饼图', label: '饼图' },
                     { value: '雷达图', label: '雷达图' },
+                    { value: '散点图', label: '散点图' },
+                    { value: '热力图', label: '热力图' },
+                    { value: '地图', label: '地图' },
+                    { value: '树状图', label: '树状图' },
+                    { value: '漏斗图', label: '漏斗图' },
+                    { value: '阴影图', label: '阴影图' },
+                    { value: '箱形图', label: '箱形图' },
+                    { value: '气泡图', label: '气泡图' },
                   ]}
                 />
               </Form.Item>
