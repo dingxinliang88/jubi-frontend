@@ -15,8 +15,9 @@
       { path: '/admin/sub-page', name: '管理页面2', component: './Admin' },
     ],
   },
-  { path: '/', redirect: '/add_chart' },
-  { path: '/add_chart', name: '智能分析', component: './Charts/Add' },
+  { path: '/', redirect: '/add_chart_async' },
+  { path: '/add_chart_sync', name: '智能分析（同步）', component: './Charts/Add/Sync' },
+  { path: '/add_chart_async', name: '智能分析（异步）', component: './Charts/Add/Async' },
   { path: '/list_my_chart', name: '我的图表', component: './Charts/List' },
   { path: '*', layout: false, component: './404' },
 ];
